@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-core
+langchain-groq
+langchain-huggingface
+langchain-chroma
+langchain-text-splitters
+sentence-transformers
+chromadb
+gdown  # We will use this to download from Google Drive

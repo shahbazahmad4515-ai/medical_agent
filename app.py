@@ -21,7 +21,7 @@ DB_DIR = "./chroma_db"
 DATA_ZIP_PATH = "./Finished.zip"
 
 # !!! PASTE YOUR GOOGLE DRIVE LINK HERE !!!
-GOOGLE_DRIVE_FILE_ID = "B5aizC-NUsI72i31yjDfvx6LDDBtfCkn" # <-- REPLACE THIS with the ID from your link
+GOOGLE_DRIVE_FILE_ID = "1B5aizC-NUsI72i31yjDfvx6LDDBtfCkn" # <-- REPLACE THIS with the ID from your link
 
 # --- CLOUD SETUP: Download Data & Build DB (runs only once) ---
 @st.cache_resource
@@ -142,3 +142,4 @@ if prompt := st.chat_input("Ask about patient symptoms, history, or labs..."):
         except Exception as e:
 
             st.error(f"An error occurred: {e}")
+
